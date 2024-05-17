@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  .bottom {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-bars {
+    display: block;
+    color: black;
+    font-size: large;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .img h5 {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img h1 {
+    display: inline-block;
+  }
+}
